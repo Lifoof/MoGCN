@@ -30,8 +30,11 @@ python GCN_run.py -fd result/latent_data.csv -ad result/SNF_fused_matrix.csv -ld
 The meaning of the parameters can be viewed through -h/--help <br>
 
 ### Data Format
-*The input type of each omics data must be .csv, the rows represent samples, and the columns represent features (genes). In each expression matrix, the first column must be the samples, and the remaining columns are features. Samples in all omics data must be consistent. AE and SNF are unsupervised models and do not require sample labels.<br>
+* The input type of each omics data must be .csv, the rows represent samples, and the columns represent features (genes). In each expression matrix, the first column must be the samples, and the remaining columns are features. Samples in all omics data must be consistent. AE and SNF are unsupervised models and do not require sample labels.<br>
 * GCN is a semi-supervised classification model, it requires sample label files (.csv format) during training. The first column of the label file is the sample name, the second column is the digitized sample label, the remaining columns are not necessary. <br>
+
+## Contact
+For any questions please contact Dr. Xiao Li (Email: lixiaoBioinfo@163.com).
 
 ## License
 MIT License
