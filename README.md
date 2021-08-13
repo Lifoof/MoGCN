@@ -1,7 +1,7 @@
 # MoGCN
 ## What is it?
 MoGCN, a multi-omics integration method based on graph convolutional network.<br>
-![]
+![Image text]
 (https://github.com/Lifoof/MoGCN/blob/master/data/Figs-1.tif)
 As shown in figure, inputs to the model are multi-omics expression matrices, including but not limited to genomics, transcriptomics, proteomics, etc. MoGCN exploits the GCN model to incorporate and extend two unsupervised multi-omics integration algorithms: Autoencoder algorithm (AE) based on expression matrix and similarity network fusion algorithm based on patient similarity network. Feature extraction is not necessary before AE and SNF. <br>
 
