@@ -17,9 +17,9 @@ python setup.py install
 
 ## Usage
 The whole workflow is divided into three steps: <br>
-*Use AE to reduce the dimensionality of multi-omics data to obtain multi-omics feature matrix <br>
-*Use SNF to construct patient similarity network <br>
-*Input multi-omics feature matrix  and the patient similarity network to GCN <br>
+* Use AE to reduce the dimensionality of multi-omics data to obtain multi-omics feature matrix <br>
+* Use SNF to construct patient similarity network <br>
+* Input multi-omics feature matrix  and the patient similarity network to GCN <br>
 The sample data is in the data folder, which contains the CNV, mRNA and RPPA data of BRCA. <br>
 ### Command Line Tool
 ```Python
@@ -30,8 +30,8 @@ python GCN_run.py -fd result/latent_data.csv -ad result/SNF_fused_matrix.csv -ld
 The meaning of the parameters can be viewed through -h/--help <br>
 
 ### Data Format
-The input type of each omics data must be .csv, the rows represent samples, and the columns represent features (genes). In each expression matrix, the first column must be the samples, and the remaining columns are features. Samples in all omics data must be consistent. AE and SNF are unsupervised models and do not require sample labels.<br>
-GCN is a semi-supervised classification model, it requires sample label files (.csv format) during training. The first column of the label file is the sample name, the second column is the digitized sample label, the remaining columns are not necessary. <br>
+*The input type of each omics data must be .csv, the rows represent samples, and the columns represent features (genes). In each expression matrix, the first column must be the samples, and the remaining columns are features. Samples in all omics data must be consistent. AE and SNF are unsupervised models and do not require sample labels.<br>
+* GCN is a semi-supervised classification model, it requires sample label files (.csv format) during training. The first column of the label file is the sample name, the second column is the digitized sample label, the remaining columns are not necessary. <br>
 
 ## License
 MIT License
