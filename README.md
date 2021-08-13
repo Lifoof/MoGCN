@@ -5,7 +5,7 @@ MoGCN, a multi-omics integration method based on graph convolutional network.<br
 As shown in figure, inputs to the model are multi-omics expression matrices, including but not limited to genomics, transcriptomics, proteomics, etc. MoGCN exploits the GCN model to incorporate and extend two unsupervised multi-omics integration algorithms: Autoencoder algorithm (AE) based on expression matrix and similarity network fusion algorithm based on patient similarity network. Feature extraction is not necessary before AE and SNF. <br>
 
 ## Requirements 
-MoGCN is a Python scirpt tool, your Python environment need:<br>
+MoGCN is a Python scirpt tool, Python environment need:<br>
 Python 3.6 or above <br>
 Pytorch 1.4.0 or above <br>
 snfpy 0.2.2 <br>
