@@ -10,10 +10,6 @@ Python 3.6 or above <br>
 Pytorch 1.4.0 or above <br>
 snfpy 0.2.2 <br>
 
-## Installing
-```Python
-python setup.py install
-```
 
 ## Usage
 The whole workflow is divided into three steps: <br>
