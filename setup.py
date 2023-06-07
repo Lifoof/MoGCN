@@ -3,9 +3,12 @@
 # @Time    : 2021/8/9 10:36
 # @Author  : Li Xiao
 # @File    : setup.py
-from setuptools import setup
-from setuptools import find_packages
+#from setuptools import setup
+#from setuptools import find_packages
 
+# DO NOT USE THIS CODE. IT HAS NOT BEEN IMPLEMENTED.
+
+'''
 setup(
     name = 'MoGCN',
     version = '0.1',
@@ -20,3 +23,4 @@ setup(
 
     python_requires = '>=3.6'
 )
+'''
